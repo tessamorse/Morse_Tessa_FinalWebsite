@@ -1,0 +1,351 @@
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .navigation {
+        background-color: #EAE9E4;
+        padding: 15px;
+        width: 100%;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .h-menu {
+        padding: 10px;
+        border-radius: 100%;
+    }
+    .h-menu:hover {
+        cursor: pointer;
+        color: white;
+        background-color: #EAE9E4;
+    }
+    .Logo {
+        padding-left: 65px;
+    }
+    .topnav {
+        overflow: hidden;
+        padding: 10px 100px;
+    }
+    .topnav a {
+        color: #707070;
+        padding: 14px 25px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Baskerville;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .show-desktop {
+        display: none;
+    }
+    .show-mobile {
+        display: inline;
+    }
+    @media (min-width: 648px) {
+        .navigation {
+            padding: 20px 15px;
+        }
+        .show-desktop {
+            display: block;
+        }
+        .show-mobile {
+            display: none;
+        }
+    }
+    .Top-Photo {
+        width: 100%;
+    }
+    .Open-Frame {
+        position: relative;
+        font-family: Baskerville;
+        text-align: center;
+        background-image: url(../KasamaImages/chickenrice.jpeg);
+        background-size: cover;
+        width: 100vw;
+        height: 650px;
+        padding: 20px;
+
+    }
+    .text-block {
+        position: absolute;
+        width: 525px;
+        height: 230px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        background-color: #576257;
+        color: #EAE9E4;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .text-block h5 {
+        font-size: 22px;
+    }
+    .text-block p {
+        font-size: 15px;
+    }
+    .Menus {
+        background-color: #EAE9E4;
+        height: 670px;
+        text-align: center;
+        font-family: Baskerville;
+        font-size: 60px;
+        color: #707070;
+
+    }
+    .Menus p {
+        border-bottom: 2px #707070 solid; 
+        padding-bottom: 30px;
+    }
+    .Menu-flex {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1366px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .flex-container .menu {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .column {
+        padding: 15px 20px;
+        min-width: 200px;
+    }
+    .Daytime, Beverages, Pastries {
+        min-width: 200px;
+    }
+    .Daytime-btn {
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #707070;
+        color: #EAE9E4;
+        padding: 14px 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .Daytime-btn:hover {
+        border: 2px #707070 solid;
+        background-color: #EAE9E4;
+        color: #707070;
+    }
+    .Beverage-btn {
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #707070;
+        color: #EAE9E4;
+        padding: 14px 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .Beverage-btn:hover {
+        border: 2px #707070 solid;
+        background-color: #EAE9E4;
+        color: #707070;
+    }
+    .Pastries-btn {
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #707070;
+        color: #EAE9E4;
+        padding: 14px 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .Pastries-btn:hover {
+        border: 2px #707070 solid;
+        background-color: #EAE9E4;
+        color: #707070;
+    }
+    .Order-block {
+        position: relative;
+    }
+    .Order-block img {
+        width: 100%;
+        height: auto;
+    }   
+    .Order-block .order-btn {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-40%, -60%);
+        background-color: #EAE9E4;
+        color: #707070;
+        font-size: 30px;
+        padding: 14px 62px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .Order-block .Reservation-btn {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-40%, -40%);
+        background-color: #EAE9E4;
+        color: #707070;
+        font-size: 30px;
+        padding: 14px 22px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .order-btn:hover {
+        color: #EAE9E4;
+        background-color: #707070
+    }
+    .Reservation-btn:hover {
+        color: #EAE9E4;
+        background-color: #707070
+    }
+    .Green-Block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #576257;
+        width: 100%;
+    }
+    .Green-block .About-img {
+       position: relative;
+       padding: 70px;
+       flex-basis: 50%;
+    }
+    .About-img img {
+        min-width: 400px;
+    }
+    .About {
+        padding: 10px 50px;
+        border-left: 2px #EAE9E4 solid;
+        flex-basis: 50%;
+    }  
+    .About h3 {
+        color: #EAE9E4;
+        font-family: Baskerville;
+        font-size: 50px;
+        margin: 0;
+    }
+    .About p {
+        color: #EAE9E4;
+        font-family: Baskerville;
+        font-size: 20px;  
+    }
+    .collage {
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        font-size: 30px;
+        color: #707070;
+        text-align: center;
+        background-color: #EAE9E4;
+        padding: 40px;
+    }
+    .FB-button {
+        font-size: 20px;
+        padding: 20px;
+        color: #707070;
+        text-decoration: none;
+    }
+    .FB-button:hover {
+        border: 2px #576257 solid;
+        background-color: #EAE9E4;
+        color: #576257;
+    }
+    .IG-button {
+        font-size: 20px;
+        padding: 20px;
+        color: #707070;
+        text-decoration: none;
+    }
+    .IG-button:hover {
+        border: 2px #576257 solid;
+        background-color: #EAE9E4;
+        color: #576257;
+    }
+    @media (max-width: 750px) {
+        .Logo {
+            padding-left: 20px;
+            width: 300px;
+        }
+        .text-block {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: auto;
+            transform: translate(0, 0);
+        }
+        .About {
+            flex-basis: 100%;
+        }
+        .Daytime, Beverages, Pastries {
+            flex-basis: 100%;
+        }      
+    }
+
+
+    .rotate.active-1 {
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;   
+    }
+    .scale--up {
+        transform: scale(0);
+    } 
+    .scale--up.active-1 {
+        animation-name: scale-up;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+    .fade--in {
+        opacity: 0;
+    } 
+    .fade--in.active-1 {
+        animation-name: fade-in;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    } 
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            transform: translateY(200px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes scale-up {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }

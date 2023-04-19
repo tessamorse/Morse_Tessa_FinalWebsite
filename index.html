@@ -1,11 +1,69 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="Stylesheet/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body style="background-color: #EAE9E4;">
+    <div class="flex-container navigation">
+        <img class="Logo" src="KasamaLogos/3.png" alt="Kasama logo" width="350px" height="auto">
+        <button class="h-menu show-mobile"><span class="material-symbols-outlined size-lg">menu</span></button>
+        <div class="topnav show-desktop">
+            <a href="#Menus">Menus</a>
+            <a href="#about">About</a>
+            <a href="#order">Order</a>
+            <a href="#reservations">Reservations</a>
+            <a href="#press">Press</a>
+        </div>
+    </div> 
+    <div class="Open-Frame">
+        <div class="text-block rotate active">
+            <h5><em>Laid-back eatery serving creative sweet & savory pastries, plus Filipino offerings, coffee & wine</em></h5>
+            <p>1001 N. Winchester Ave.<br>Chicago, Illinois 60622<br>(773) 697-3790</p>    
+        </div>
+    </div>
+    <div class="Menus">
+        <p>Menus</p>
+        <div class="Menu-flex">
+            <div class="Daytime">
+                <div class="column"><img src="KasamaImages/MenuImages-01.png" width="325"></div>
+                <a href="" class="Daytime-btn">Daytime</a>
+            </div>
+            <div class="Beverages">
+                <div class="column"><img src="KasamaImages/MenuImages-02.png" width="325"></div> 
+                <a href="" class="Beverage-btn">Beverages</a>
+            </div>
+            <div class="Pastries">
+                <div class="column"><img src="KasamaImages/MenuImages-03.png" width="325"></div>
+                <a href="" class="Pastries-btn">Pastries</a>
+            </div>
+        </div>
+    </div>
+    <div class="Order-Block fade--in">
+        <img src="KasamaImages/Takeout.png" alt="Takeout Kasama">
+        <a href="" class="Order-btn">Order</a>
+        <a href="" class="Reservation-btn">Reservations</a>
+    </div>
+    <div class="Green-Block scale--up">
+        <div class="About-Img"><img src="KasamaImages/Tim+and+Genie-65.jpeg" width="1000px"></div>
+        <div class="About">
+            <h3>About Us</h3>
+            <p>Kasama is a bakery and modern Filipino restaurant from chefs Genie Kwon and Timothy Flores located in the East Ukrainian Village neighborhood of Chicago. We look forward to welcoming you!</p>
+        </div>
+    </div>
+    <div class="Collage">
+        <img src="KasamaImages/KasamaCollageMICH.jpg" alt="kasama collage">
+    </div>
+    <footer class="footer">
+        <a href="" class="FB-button">Facebook</a>
+        <span> | </span>
+        <a href="" class="IG-button">Instagram</a>
+    </footer>
+    <script src="js/dom-element-detector.js"></script>
+</body>
 </html>
